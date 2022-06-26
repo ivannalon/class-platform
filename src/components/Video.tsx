@@ -43,7 +43,7 @@ export function Video(props: VideoProps) {
       slug: props.lessonSlug,
     }
   })
-
+  
   if (!data) {
     return (
       <div className="flex-1">
